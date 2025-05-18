@@ -1,0 +1,20 @@
+# [Project Name]
+
+## License Overview  
+This project is **dual-licensed** under the following terms:  
+
+1. **Non-Commercial Use**  
+   - Licensed under the **Apache-2.0**.  
+   - Users **must** share the modifications they have made.
+   - This applies **only** to non-commercial users.
+
+2. **Commercial Use**  
+   - Requires a **separate commercial license**. A **Licensee Number** will need to be purchased. 
+   - Commercial users do **not** have to share modifications. 
+   - Contact Email: rauf.hammad@outlook.com or Website:https://hexword.ca for licensing inquiries.
+
+## Getting Started  
+- Non-commercial users can use the Apache-2.0 license.  
+- Commercial users must obtain a commercial licensee number before use.  
+
+For full terms, see [LICENSE-Apache-2.0](LICENSE-Apache-2.0) and [LICENSE-commercial](LICENSE-commercial).  

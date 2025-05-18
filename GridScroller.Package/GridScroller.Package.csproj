@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>GridScroller</Title>
+    <Authors>hammadrauf</Authors>
+    <Description>Uno Platform compatible UI Controls Collection scroller. For example it can be used as a CheckBoxCombo control.</Description>
+    <Copyright>Copyright (C) 2025 Hammad Rauf &lt;rauf.hammad@outlook.com&gt;, https://hexword.ca</Copyright>
+    <PackageProjectUrl>https://github.com/hammadrauf/GridScroller</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/hammadrauf/GridScroller/GridScroller.Package</RepositoryUrl>
+    <PackageTags>Uno; Uno Platform; Uno.WinUI; CheckBoxCombo; ScrollView</PackageTags>
+    <PackageLicenseFile>README.md</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE-Apache-2.0">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Uno.WinUI" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="cmpGridScroller.xaml">
+      <IsDefaultItem>true</IsDefaultItem>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="cmpGridScroller.xaml.cs">
+      <IsDefaultItem>true</IsDefaultItem>
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

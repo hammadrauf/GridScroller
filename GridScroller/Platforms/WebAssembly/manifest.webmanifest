@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "GridScroller",
+  "display": "standalone",
+  "name": "GridScroller",
+  "short_name": "GridScroller",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
