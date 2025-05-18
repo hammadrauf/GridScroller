@@ -15,7 +15,7 @@
     <PackageTags>Uno; Uno Platform; Uno.WinUI; CheckBoxCombo; ScrollView</PackageTags>
     <PackageLicenseFile>README.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>1.0.2</Version>
+    <Version>1.0.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
