@@ -14,7 +14,7 @@
             Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
             BorderBrush="{x:Bind BorderBrush, Mode=OneWay}"
             BorderThickness="{x:Bind BorderThickness, Mode=OneWay}"
-            CornerRadius="5"
+            CornerRadius="{x:Bind CornerRadius, Mode=OneWay}"
             Margin="10">
             <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
                 <StackPanel Orientation="Vertical" Margin="1">

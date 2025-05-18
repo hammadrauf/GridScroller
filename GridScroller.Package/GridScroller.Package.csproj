@@ -15,7 +15,9 @@
     <PackageTags>Uno; Uno Platform; Uno.WinUI; CheckBoxCombo; ScrollView</PackageTags>
     <PackageLicenseFile>README.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
+    <PackageReleaseNotes>- Made corner radius a property
+- Items property is now editable programatically</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,10 +29,6 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Uno.WinUI" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,6 +44,10 @@
       <IsDefaultItem>true</IsDefaultItem>
       <DependentUpon>%(Filename)</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Uno.WinUI" />
   </ItemGroup>
 
 </Project>

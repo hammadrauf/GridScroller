@@ -19,7 +19,34 @@ using Windows.Foundation.Collections;
 namespace GridScroller.Package;
 public sealed partial class cmpGridScroller : UserControl
 {
-    public ObservableCollection<UIElement> Items { get; } = new();
+    public static readonly DependencyProperty CornerRadiusProperty =
+    DependencyProperty.Register(
+        nameof(CornerRadius),
+        typeof(CornerRadius),
+        typeof(cmpGridScroller),
+        new PropertyMetadata(new CornerRadius(5))
+    );
+
+    public CornerRadius CornerRadius
+    {
+        get => (CornerRadius)GetValue(CornerRadiusProperty);
+        set => SetValue(CornerRadiusProperty, value);
+    }
+
+    private ObservableCollection<UIElement> _items = new();
+    public ObservableCollection<UIElement> Items
+    {
+        get => _items;
+        set
+        {
+            if (_items != value)
+            {
+                _items = value;
+                if (PART_ItemsHost != null)
+                    PART_ItemsHost.ItemsSource = _items;
+            }
+        }
+    }
 
     public static readonly DependencyProperty BorderBrushProperty =
         DependencyProperty.Register(

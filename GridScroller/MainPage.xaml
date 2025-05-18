@@ -8,9 +8,10 @@
       <StackPanel
         HorizontalAlignment="Center"
         VerticalAlignment="Center">
-        <local:cmpGridScroller Width="180" Height="100"
+        <local:cmpGridScroller x:Name="gsDates" Width="180" Height="100"
               BorderBrush="CornflowerBlue"
               BorderThickness="5"
+              CornerRadius="0"
               AutomationProperties.AutomationId="GridScroller"
             HorizontalAlignment="Stretch"
             VerticalAlignment="Stretch"

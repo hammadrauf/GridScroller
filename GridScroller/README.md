@@ -53,7 +53,7 @@ In your XAML file, add the namespace for the GridScroller control. Then use  <gs
             <!-- Define the GridScroller UI Control -->
             <gs:cmpGridScroller Width="180" Height="100"
                     BorderBrush="Black"
-                    BorderThickness="1"
+                    BorderThickness="1" CornerRadius="5"
                     Margin="10" Grid.Row="2" Grid.RowSpan="3"
                     Grid.Column="1" Grid.ColumnSpan="2">
                 <gs:cmpGridScroller.Items>
@@ -67,4 +67,25 @@ In your XAML file, add the namespace for the GridScroller control. Then use  <gs
             </gs:cmpGridScroller>
     </Grid>
     </Page>
+```
+In your code-behind file, you can access the GridScroller.Package control and its items. For example:
+```csharp
+
+public sealed partial class MainPage : Page
+{
+    public MainPage()
+    {
+        this.InitializeComponent();
+        // Initialize the GridScroller control programatically
+        this.gsDates.Items = new ObservableCollection<UIElement>
+        {
+            new CheckBox { Content = "2025-05-12" },
+            new CheckBox { Content = "2025-05-13" },
+            new CheckBox { Content = "2025-05-14" },
+            new Button { Content = "A" },
+            new Button { Content = "B" }
+        };
+    }
+}
+
 ```
