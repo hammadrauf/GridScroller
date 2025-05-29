@@ -15,9 +15,8 @@
     <PackageTags>Uno; Uno Platform; Uno.WinUI; CheckBoxCombo; ScrollView</PackageTags>
     <PackageLicenseFile>LICENSE-Overview.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>1.0.6</Version>
-    <PackageReleaseNotes>- Background is now a property. Default is AppBackground.
-- Background may be set in xaml or code.</PackageReleaseNotes>
+    <Version>1.0.7</Version>
+    <PackageReleaseNotes>- Only updated README.md file with raw github image links.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
