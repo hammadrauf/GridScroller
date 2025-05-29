@@ -89,3 +89,9 @@ public sealed partial class MainPage : Page
 }
 
 ```
+## Images
+Animated View - GridScroller
+![Animated View - GridScroller](https://github.com/hammadrauf/GridScroller/blob/3d06edf8aa0cb983d76994dcefc94dcabb02c871/media/Animated-GridScroller.gif)
+
+Screen Capture - GridScroller  
+![Screen Capture - GridScroller](https://github.com/hammadrauf/GridScroller/blob/3d06edf8aa0cb983d76994dcefc94dcabb02c871/media/Still-GridScroller.png)
