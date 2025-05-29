@@ -11,7 +11,7 @@
     <Grid>
         <Border
             x:Name="PART_Border"
-            Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+            Background="{x:Bind Background, Mode=OneWay}"
             BorderBrush="{x:Bind BorderBrush, Mode=OneWay}"
             BorderThickness="{x:Bind BorderThickness, Mode=OneWay}"
             CornerRadius="{x:Bind CornerRadius, Mode=OneWay}"

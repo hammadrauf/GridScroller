@@ -19,6 +19,23 @@ using Windows.Foundation.Collections;
 namespace GridScroller;
 public sealed partial class cmpGridScroller : UserControl
 {
+    public static readonly DependencyProperty BackgroundProperty =
+        DependencyProperty.Register(
+            nameof(Background),
+            typeof(Brush),
+            typeof(cmpGridScroller),
+            // Use the theme resource as the default value
+            new PropertyMetadata(
+                (Brush)Application.Current.Resources["ApplicationPageBackgroundThemeBrush"]
+            )
+        );
+
+    public Brush Background
+    {
+        get => (Brush)GetValue(BackgroundProperty);
+        set => SetValue(BackgroundProperty, value);
+    }
+
     public static readonly DependencyProperty CornerRadiusProperty =
     DependencyProperty.Register(
         nameof(CornerRadius),

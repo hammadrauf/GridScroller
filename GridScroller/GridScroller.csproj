@@ -37,6 +37,12 @@
     </UnoFeatures>
   </PropertyGroup>
   <ItemGroup>
+    <None Update="LICENSE-Overview.md">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="cmpGridScroller.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>

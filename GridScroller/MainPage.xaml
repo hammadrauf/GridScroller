@@ -9,6 +9,7 @@
         HorizontalAlignment="Center"
         VerticalAlignment="Center">
         <local:cmpGridScroller x:Name="gsDates" Width="180" Height="100"
+              Background="LightYellow"
               BorderBrush="CornflowerBlue"
               BorderThickness="5"
               CornerRadius="0"

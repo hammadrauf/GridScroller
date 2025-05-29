@@ -52,6 +52,7 @@ In your XAML file, add the namespace for the GridScroller control. Then use  <gs
 
             <!-- Define the GridScroller UI Control -->
             <gs:cmpGridScroller Width="180" Height="100"
+                    Background="LightYellow"
                     BorderBrush="Black"
                     BorderThickness="1" CornerRadius="5"
                     Margin="10" Grid.Row="2" Grid.RowSpan="3"
@@ -85,12 +86,13 @@ public sealed partial class MainPage : Page
             new Button { Content = "A" },
             new Button { Content = "B" }
         };
+        this.gsDates.Background = new SolidColorBrush(Microsoft.UI.Colors.White);
     }
 }
 
 ```
 ## Images
-Animated View - GridScroller
+Animated View - GridScroller  
 ![Animated View - GridScroller](https://github.com/hammadrauf/GridScroller/blob/3d06edf8aa0cb983d76994dcefc94dcabb02c871/media/Animated-GridScroller.gif)
 
 Screen Capture - GridScroller  
