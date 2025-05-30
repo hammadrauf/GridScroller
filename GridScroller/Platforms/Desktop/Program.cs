@@ -1,4 +1,5 @@
-using Uno.UI.Runtime.Skia;
+//using Uno.UI.Runtime.Skia;
+using Uno.UI.Hosting;
 
 namespace GridScroller;
 
@@ -9,7 +10,8 @@ public class Program
     {
         App.InitializeLogging();
 
-        var host = SkiaHostBuilder.Create()
+        //var host = SkiaHostBuilder.Create()
+        var host = UnoPlatformHostBuilder.Create()
             .App(() => new App())
             .UseX11()
             .UseLinuxFrameBuffer()

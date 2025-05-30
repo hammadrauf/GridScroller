@@ -41,6 +41,10 @@
       <PackagePath>\</PackagePath>
       <Pack>True</Pack>
     </None>
+    <None Update="README.md">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Page Update="cmpGridScroller.xaml">

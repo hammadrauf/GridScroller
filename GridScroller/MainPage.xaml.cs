@@ -23,6 +23,6 @@ public sealed partial class MainPage : Page
         // Change the background color of the grid scroller
         //gsDates.Background = new SolidColorBrush(Microsoft.UI.Colors.LightBlue);
         await Task.Delay(5000); // 5 seconds delay
-        gsDates.Background = new SolidColorBrush(Microsoft.UI.Colors.White);
+        gsDates.Background = new SolidColorBrush(Microsoft.UI.Colors.LightYellow);
     }
 }

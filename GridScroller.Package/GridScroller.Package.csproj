@@ -15,8 +15,9 @@
     <PackageTags>Uno; Uno Platform; Uno.WinUI; CheckBoxCombo; ScrollView</PackageTags>
     <PackageLicenseFile>LICENSE-Overview.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>1.0.7</Version>
-    <PackageReleaseNotes>- Only updated README.md file with raw github image links.</PackageReleaseNotes>
+    <Version>1.0.8</Version>
+    <PackageReleaseNotes>- Updated README.md file with installation commands.
+- Updated Uno.SDK referenced version</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

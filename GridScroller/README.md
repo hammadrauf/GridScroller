@@ -20,6 +20,18 @@ This project is **dual-licensed** under the following terms:
   
 For full terms, see [LICENSE-Apache-2.0](https://github.com/hammadrauf/GridScroller/blob/main/LICENSE-Apache-2.0) and [LICENSE-commercial](https://github.com/hammadrauf/GridScroller/blob/main/LICENSE-commercial).  
 
+## Installing from Nuget.org
+This software is available on NuGet.org as the [GridScroller.Package](https://www.nuget.org/packages/GridScroller.Package).  
+To install the GridScroller package, you can use the NuGet Package Manager Console, the NuGet Package Manager in Visual Studio, or dotnet cli commands.
+### Using NuGet Package Manager Console
+```bash
+NuGet\Install-Package GridScroller.Package
+```
+### Using dotNet CLI
+```bash
+dotnet add package GridScroller.Package
+```
+
 ## Example Usage
 In your XAML file, add the namespace for the GridScroller control. Then use  <gs:cmpGridScroller /> tag to define the control. You can add UI items inside the <gs:cmpGridScroller.Items> tag.
 ```xml
